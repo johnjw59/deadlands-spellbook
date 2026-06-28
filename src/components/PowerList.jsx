@@ -59,8 +59,8 @@ export default function PowerList() {
           letterSpacing: '-0.4px',
           lineHeight: 1.2,
         }}>
-          <span style={{ color: 'var(--c-copper)' }}>☽</span>{' '}
-          <span style={{ color: 'var(--c-text-bright)' }}>Weird West</span>{' '}
+          <span style={{ color: 'var(--c-copper)' }}>🌵</span>{' '}
+          <span style={{ color: 'var(--c-text-bright)' }}>Deadlands</span>{' '}
           <span style={{ color: 'var(--c-gold)', fontWeight: 500 }}>Spellbook</span>
         </h1>
 
