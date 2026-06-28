@@ -9,7 +9,8 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'maskable-icon.png'],
+      includeAssets: ['favicon.svg'],
+      // TODO: add pwa-192x192.png, pwa-512x512.png, maskable-icon.png, apple-touch-icon.png
       manifest: {
         name: 'Deadlands Weird West Spellbook',
         short_name: 'DeadlandsSpellbook',
@@ -19,22 +20,7 @@ export default defineConfig({
         display: 'standalone',
         orientation: 'portrait',
         icons: [
-          {
-            src: 'pwa-192x192.png',
-            sizes: '192x192',
-            type: 'image/png'
-          },
-          {
-            src: 'pwa-512x512.png',
-            sizes: '512x512',
-            type: 'image/png'
-          },
-          {
-            src: 'maskable-icon.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'maskable'
-          }
+          // TODO: add icons when assets are ready
         ]
       },
     }),

@@ -1,8 +1,9 @@
 [
   {
+    "id": "ammo_whammy",
     "name": "Ammo Whammy",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 4,
     "range": "Self",
     "duration": "5",
@@ -11,9 +12,10 @@
     "modifiers": []
   },
   {
+    "id": "curse",
     "name": "Curse",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 5,
     "range": "Touch",
     "duration": "Permanent",
@@ -22,9 +24,10 @@
     "modifiers": []
   },
   {
+    "id": "holy_symbol",
     "name": "Holy Symbol",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 3,
     "range": "Self",
     "duration": "5",
@@ -44,9 +47,10 @@
     ]
   },
   {
+    "id": "numb",
     "name": "Numb",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Spirit",
     "duration": "5",
@@ -55,9 +59,10 @@
     "modifiers": []
   },
   {
+    "id": "sanctify",
     "name": "Sanctify",
     "alias": [],
-    "rank":   "Veteran",
+    "rank": "Veteran",
     "power_points": 10,
     "range": "Special",
     "duration": "Until the next sunset",
@@ -66,9 +71,10 @@
     "modifiers": []
   },
   {
+    "id": "trinkets",
     "name": "Trinkets",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 3,
     "range": "Smarts",
     "duration": "5",
@@ -88,9 +94,10 @@
     ]
   },
   {
+    "id": "wilderness_walk",
     "name": "Wilderness Walk",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Self",
     "duration": "One hour",
@@ -105,9 +112,10 @@
     ]
   },
   {
+    "id": "arcane_protection",
     "name": "Arcane Protection",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "5",
@@ -122,9 +130,10 @@
     ]
   },
   {
+    "id": "banish",
     "name": "Banish",
     "alias": [],
-    "rank":   "Veteran",
+    "rank": "Veteran",
     "power_points": 3,
     "range": "Smarts",
     "duration": "Instant",
@@ -133,9 +142,10 @@
     "modifiers": []
   },
   {
+    "id": "barrier",
     "name": "Barrier",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 2,
     "range": "Smarts",
     "duration": "5",
@@ -165,9 +175,10 @@
     ]
   },
   {
+    "id": "beast_friend",
     "name": "Beast Friend",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": "Special",
     "range": "Smarts",
     "duration": "10 minutes",
@@ -182,9 +193,10 @@
     ]
   },
   {
+    "id": "blast",
     "name": "Blast",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 3,
     "range": "Smarts ×2",
     "duration": "Instant",
@@ -204,9 +216,10 @@
     ]
   },
   {
+    "id": "blind",
     "name": "Blind",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant",
@@ -226,9 +239,10 @@
     ]
   },
   {
+    "id": "bolt",
     "name": "Bolt",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts ×2",
     "duration": "Instant",
@@ -243,9 +257,10 @@
     ]
   },
   {
+    "id": "boost_lower_trait",
     "name": "Boost/Lower Trait",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 3,
     "range": "Smarts",
     "duration": "5 (*boost*); Instant (*lower*)",
@@ -265,9 +280,10 @@
     ]
   },
   {
+    "id": "burrow",
     "name": "Burrow",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "5",
@@ -287,9 +303,10 @@
     ]
   },
   {
+    "id": "burst",
     "name": "Burst",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Cone Template",
     "duration": "Instant",
@@ -304,9 +321,10 @@
     ]
   },
   {
+    "id": "confusion",
     "name": "Confusion",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "Until the end of the victim's next turn",
@@ -321,9 +339,10 @@
     ]
   },
   {
+    "id": "damage_field",
     "name": "Damage Field",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 4,
     "range": "Smarts",
     "duration": "5",
@@ -338,9 +357,10 @@
     ]
   },
   {
+    "id": "darksight",
     "name": "Darksight",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "One hour",
@@ -355,9 +375,10 @@
     ]
   },
   {
+    "id": "deflection",
     "name": "Deflection",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "5",
@@ -372,9 +393,10 @@
     ]
   },
   {
+    "id": "detect_conceal_arcana",
     "name": "Detect/Conceal Arcana",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "5 (detect); one hour (conceal)",
@@ -399,9 +421,10 @@
     ]
   },
   {
+    "id": "disguise",
     "name": "Disguise",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 2,
     "range": "Smarts",
     "duration": "10 minutes",
@@ -421,9 +444,10 @@
     ]
   },
   {
+    "id": "dispel",
     "name": "Dispel",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "Instant",
@@ -443,9 +467,10 @@
     ]
   },
   {
+    "id": "divination",
     "name": "Divination",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 5,
     "range": "Self",
     "duration": "A brief conversation of about five minutes.",
@@ -454,9 +479,10 @@
     "modifiers": []
   },
   {
+    "id": "drain_power_points",
     "name": "Drain Power Points",
     "alias": [],
-    "rank":   "Veteran",
+    "rank": "Veteran",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant",
@@ -465,9 +491,10 @@
     "modifiers": []
   },
   {
+    "id": "elemental_manipulation",
     "name": "Elemental Manipulation",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "5",
@@ -476,9 +503,10 @@
     "modifiers": []
   },
   {
+    "id": "empathy",
     "name": "Empathy",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "5",
@@ -493,9 +521,10 @@
     ]
   },
   {
+    "id": "entangle",
     "name": "Entangle",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant",
@@ -515,9 +544,10 @@
     ]
   },
   {
+    "id": "environmental_protection",
     "name": "Environmental Protection",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "One hour",
@@ -532,9 +562,10 @@
     ]
   },
   {
+    "id": "farsight",
     "name": "Farsight",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 2,
     "range": "Smarts",
     "duration": "5",
@@ -549,9 +580,10 @@
     ]
   },
   {
+    "id": "fear",
     "name": "Fear",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant",
@@ -566,9 +598,10 @@
     ]
   },
   {
+    "id": "fly",
     "name": "Fly",
     "alias": [],
-    "rank":   "Veteran",
+    "rank": "Veteran",
     "power_points": 3,
     "range": "Smarts",
     "duration": "5",
@@ -583,9 +616,10 @@
     ]
   },
   {
+    "id": "growth_shrink",
     "name": "Growth/Shrink",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": "2 per point of Size change",
     "range": "Smarts",
     "duration": "5",
@@ -594,9 +628,10 @@
     "modifiers": []
   },
   {
+    "id": "havoc",
     "name": "Havoc",
     "alias": ["Pummel"],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant",
@@ -616,9 +651,10 @@
     ]
   },
   {
+    "id": "healing",
     "name": "Healing",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 3,
     "range": "Touch",
     "duration": "Instant",
@@ -643,9 +679,10 @@
     ]
   },
   {
+    "id": "illusion",
     "name": "Illusion",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 3,
     "range": "Smarts",
     "duration": "5",
@@ -665,9 +702,10 @@
     ]
   },
   {
+    "id": "intangibility",
     "name": "Intangibility",
     "alias": [],
-    "rank":   "Veteran",
+    "rank": "Veteran",
     "power_points": 5,
     "range": "Smarts",
     "duration": "5",
@@ -676,9 +714,10 @@
     "modifiers": []
   },
   {
+    "id": "invisibility",
     "name": "Invisibility",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 5,
     "range": "Smarts",
     "duration": "5",
@@ -693,9 +732,10 @@
     ]
   },
   {
+    "id": "light_darkness",
     "name": "Light/Darkness",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "10 minutes",
@@ -710,9 +750,10 @@
     ]
   },
   {
+    "id": "mind_link",
     "name": "Mind Link",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "30 minutes",
@@ -727,9 +768,10 @@
     ]
   },
   {
+    "id": "mind_reading",
     "name": "Mind Reading",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant",
@@ -738,9 +780,10 @@
     "modifiers": []
   },
   {
+    "id": "mind_wipe",
     "name": "Mind Wipe",
     "alias": [],
-    "rank":   "Veteran",
+    "rank": "Veteran",
     "power_points": 3,
     "range": "Smarts",
     "duration": "Instant",
@@ -760,9 +803,10 @@
     ]
   },
   {
+    "id": "object_reading",
     "name": "Object Reading",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 2,
     "range": "Touch",
     "duration": "Special",
@@ -771,9 +815,10 @@
     "modifiers": []
   },
   {
+    "id": "protection",
     "name": "Protection",
     "alias": ["Armor"],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "5",
@@ -788,9 +833,10 @@
     ]
   },
   {
+    "id": "puppet",
     "name": "Puppet",
     "alias": [],
-    "rank":   "Veteran",
+    "rank": "Veteran",
     "power_points": 3,
     "range": "Smarts",
     "duration": "5",
@@ -810,9 +856,10 @@
     ]
   },
   {
+    "id": "relief",
     "name": "Relief",
     "alias": ["Succor"],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "Instant",
@@ -832,9 +879,10 @@
     ]
   },
   {
+    "id": "resurrection",
     "name": "Resurrection",
     "alias": [],
-    "rank":   "Heroic",
+    "rank": "Heroic",
     "power_points": 30,
     "range": "Touch",
     "duration": "Instant",
@@ -849,9 +897,10 @@
     ]
   },
   {
+    "id": "shape_change",
     "name": "Shape Change",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": "Special",
     "range": "Self",
     "duration": "5",
@@ -860,9 +909,10 @@
     "modifiers": []
   },
   {
+    "id": "sloth_speed",
     "name": "Sloth/Speed",
     "alias": ["Quickness", "Slow/Speed"],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant (sloth); 5 (speed)",
@@ -892,9 +942,10 @@
     ]
   },
   {
+    "id": "slumber",
     "name": "Slumber",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 2,
     "range": "Smarts",
     "duration": "One hour",
@@ -909,9 +960,10 @@
     ]
   },
   {
+    "id": "smite",
     "name": "Smite",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "5",
@@ -926,9 +978,10 @@
     ]
   },
   {
+    "id": "sound_silence",
     "name": "Sound/Silence",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts ×5 (sound); Smarts (silence)",
     "duration": "Instant (sound); 5 (silence)",
@@ -948,9 +1001,10 @@
     ]
   },
   {
+    "id": "speak_language",
     "name": "Speak Language",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 1,
     "range": "Smarts",
     "duration": "10 minutes",
@@ -965,9 +1019,10 @@
     ]
   },
   {
+    "id": "stun",
     "name": "Stun",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant",
@@ -982,9 +1037,10 @@
     ]
   },
   {
+    "id": "summon_ally",
     "name": "Summon Ally",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": "2+",
     "range": "Smarts",
     "duration": "5",
@@ -1009,9 +1065,10 @@
     ]
   },
   {
+    "id": "telekinesis",
     "name": "Telekinesis",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 5,
     "range": "Smarts ×2",
     "duration": "5",
@@ -1020,9 +1077,10 @@
     "modifiers": []
   },
   {
+    "id": "teleport",
     "name": "Teleport",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 2,
     "range": "Smarts",
     "duration": "Instant",
@@ -1042,9 +1100,10 @@
     ]
   },
   {
+    "id": "wall_walker",
     "name": "Wall Walker",
     "alias": [],
-    "rank":   "Novice",
+    "rank": "Novice",
     "power_points": 2,
     "range": "Smarts",
     "duration": "5",
@@ -1059,9 +1118,10 @@
     ]
   },
   {
+    "id": "warriors_gift",
     "name": "Warrior’s Gift",
     "alias": [],
-    "rank":   "Seasoned",
+    "rank": "Seasoned",
     "power_points": 4,
     "range": "Smarts",
     "duration": "5",
@@ -1076,9 +1136,10 @@
     ]
   },
   {
+    "id": "zombie",
     "name": "Zombie",
     "alias": [],
-    "rank":   "Veteran",
+    "rank": "Veteran",
     "power_points": "3 (See sidebar for large creatures)",
     "range": "Smarts",
     "duration": "One hour",
