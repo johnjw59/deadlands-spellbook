@@ -9,18 +9,33 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg'],
+      includeAssets: ['favicon.ico'],
       // TODO: add pwa-192x192.png, pwa-512x512.png, maskable-icon.png, apple-touch-icon.png
       manifest: {
         name: 'Deadlands Weird West Spellbook',
         short_name: 'DeadlandsSpellbook',
         description: 'Spellbook and character tracker for Savage Worlds Adventure Edition: Deadlands',
-        theme_color: '#D5AA52',
-        background_color: '#81652f',
+        theme_color: '#D4A02A',
+        background_color: '#160B05',
         display: 'standalone',
         orientation: 'portrait',
         icons: [
-          // TODO: add icons when assets are ready
+          {
+            src: 'pwa-192x192.png',
+            sizes: '192x192',
+            type: 'image/png'
+          },
+          {
+            src: 'pwa-512x512.png',
+            sizes: '512x512',
+            type: 'image/png'
+          },
+          {
+            src: 'pwa-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any maskable'
+          }
         ]
       },
     }),
