@@ -146,17 +146,6 @@ export default function PowerList() {
         </div>
       </div>
 
-      {/* Results count */}
-      <div style={{
-        flexShrink: 0,
-        padding: '6px 16px',
-        fontSize: '12px',
-        color: 'var(--c-text-dim)',
-        fontWeight: 500,
-      }}>
-        {filtered.length} {filtered.length === 1 ? 'power' : 'powers'}
-      </div>
-
       {/* Power list */}
       <div
         className="no-scrollbar"
