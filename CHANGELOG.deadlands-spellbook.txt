@@ -1,0 +1,15 @@
+Deadlands Spellbook v.1.0.0, 2026-06-27 - 21:32
+-----------------------------------------------
+
+- 70805e8 Add github action to build and deploy app to live server
+- 8eef862 Add .htaccess file
+- d08f867 Add app icon
+- 221ea36 Update header
+- 2c05e81 Remove different color from em elements
+- 8de7489 Remove count
+- 6093b8e AI first pass - list powers with simple filters
+- e874799 Initial scaffold
+- 178110a Create data files
+- 4a4fd7c Initial commit
+
+
