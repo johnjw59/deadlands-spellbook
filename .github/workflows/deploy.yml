@@ -1,0 +1,58 @@
+name: Build and Deploy PWA
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Fetch code including all tags for Git Flow tracking.
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Ensures all tags and history are fetched.
+
+      # 2. Get the latest Git tag.
+      - name: Get Latest Release Tag
+        id: previoustag
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+        with:
+          fallback: "latest" # Fallback string if no tag is found.
+
+      # 3. Print the version out in the logs for debugging logs.
+      - name: Log Version
+        run: echo "Building and deploying version ${{ steps.previoustag.outputs.tag }}"
+
+      # 4. Initialize Node.js environment using project's .nvmrc file.
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      # 5. Install dependencies and compile the production bundle.
+      - name: Install and Build
+        run: |
+          npm ci
+          npm run build
+
+      # 6. Set up SSH authentication natively on the runner.
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          # Scans and approves your server host key to prevent hung handshakes
+          ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+
+      # 7. Securely Rsync the dist directory to server.
+      - name: Deploy via Rsync
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/id_rsa" \
+            dist/ \
+            ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/var/www/deadlands.jwiebe.ca
