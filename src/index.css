@@ -55,6 +55,25 @@ body {
 .rank-Heroic   { background: #3A0F0F; color: #D43030; }
 
 /* ── Utilities ───────────────────────────────── */
+/* Lock html, body, and Vite's React root element */
+html,
+body,
+#root {
+  height: 100dvh; /* Switch from dsvh to dvh */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents the classic iOS elastic "rubber-band" scroll bounce */
+}
+/* Lock html, body, and Vite's React root element */
+html, body, #root {
+  height: 100dvh; /* Switch from dsvh to dvh */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents the classic iOS elastic "rubber-band" scroll bounce */
+}
+@utility pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-

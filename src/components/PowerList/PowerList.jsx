@@ -39,7 +39,7 @@ export default function PowerList() {
   return (
     <div className="power-list">
       {/* Header */}
-      <div className="power-list__header">
+      <div className="power-list__header pt-safe">
         <h1 className="power-list__title">
           <span className="power-list__title-icon">🌵</span>{' '}
           <span className="power-list__title-main">Deadlands</span>{' '}
@@ -104,7 +104,7 @@ export default function PowerList() {
       </div>
 
       {/* Power list */}
-      <div className="power-list__scroll no-scrollbar">
+      <div className="power-list__scroll no-scrollbar pt-safe">
         {filtered.length > 0
           ? filtered.map(power => (
               <PowerCard key={power.id} power={power} onClick={setSelectedPower} />
