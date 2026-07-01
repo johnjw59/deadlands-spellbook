@@ -40,12 +40,6 @@ export default function PowerList() {
     <div className="power-list">
       {/* Header */}
       <div className="power-list__header pt-safe">
-        <h1 className="power-list__title">
-          <span className="power-list__title-icon">🌵</span>{' '}
-          <span className="power-list__title-main">Deadlands</span>{' '}
-          <span className="power-list__title-sub">Spellbook</span>
-        </h1>
-
         {/* Search */}
         <div className="power-list__search">
           <span className="power-list__search-icon">⌕</span>
