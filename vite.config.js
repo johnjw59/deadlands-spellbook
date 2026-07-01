@@ -12,9 +12,9 @@ export default defineConfig({
       includeAssets: ['favicon.ico'],
       // TODO: add pwa-192x192.png, pwa-512x512.png, maskable-icon.png, apple-touch-icon.png
       manifest: {
-        name: 'Deadlands Weird West Spellbook',
-        short_name: 'DeadlandsSpellbook',
-        description: 'Spellbook and character tracker for Savage Worlds Adventure Edition: Deadlands',
+        name: 'Deadlands Spellbook',
+        short_name: 'Deadlands Spellbook',
+        description: 'Powers and spellbook reference for Savage Worlds Adventure Edition: Deadlands',
         theme_color: '#D4A02A',
         background_color: '#160B05',
         display: 'standalone',
