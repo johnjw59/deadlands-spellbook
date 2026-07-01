@@ -54,25 +54,7 @@ body {
 .rank-Veteran  { background: #3A1E00; color: #D46C17; }
 .rank-Heroic   { background: #3A0F0F; color: #D43030; }
 
-/* ── Markdown prose ──────────────────────────── */
-.power-description { line-height: 1.7; }
-.power-description p              { margin: 0.5rem 0; }
-.power-description p:first-child  { margin-top: 0; }
-.power-description p:last-child   { margin-bottom: 0; }
-.power-description ul             { margin: 0.5rem 0; padding-left: 1.4rem; }
-.power-description li             { margin: 0.2rem 0; }
-.power-description strong         { color: var(--c-text-bright); font-weight: 600; }
-.power-description table          { width: 100%; border-collapse: collapse; margin: 0.5rem 0; font-size: 13px; }
-.power-description th,
-.power-description td             { border: 1px solid var(--c-border); padding: 4px 8px; text-align: left; }
-.power-description th             { background: var(--c-surface); color: var(--c-gold-mid); font-weight: 600; }
-
 /* ── Utilities ───────────────────────────────── */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* ── Animations ──────────────────────────────── */
-@keyframes modalIn {
-  from { opacity: 0; transform: scale(0.96) translateY(6px); }
-  to   { opacity: 1; transform: scale(1)    translateY(0);   }
-}

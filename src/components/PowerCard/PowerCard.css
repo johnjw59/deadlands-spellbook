@@ -1,0 +1,51 @@
+.power-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 13px 15px;
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: 14px;
+  cursor: pointer;
+  text-align: left;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.power-card__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.power-card__name {
+  color: var(--c-text-bright);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.power-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.power-card__alias {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--c-text-dim);
+}
+
+.power-card__chevron {
+  color: var(--c-border);
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+  flex-shrink: 0;
+}

@@ -1,0 +1,49 @@
+.markdown {
+  line-height: 1.7;
+
+  p {
+    margin: 0.5rem 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    margin: 0.5rem 0;
+    padding-left: 1.4rem;
+  }
+
+  li {
+    margin: 0.2rem 0;
+  }
+
+  strong {
+    color: var(--c-text-bright);
+    font-weight: 600;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5rem 0;
+    font-size: 13px;
+  }
+
+  th,
+  td {
+    border: 1px solid var(--c-border);
+    padding: 4px 8px;
+    text-align: left;
+  }
+
+  th {
+    background: var(--c-surface);
+    color: var(--c-gold-mid);
+    font-weight: 600;
+  }
+}

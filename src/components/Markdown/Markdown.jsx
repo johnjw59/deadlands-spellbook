@@ -1,3 +1,5 @@
+import './Markdown.css'
+
 /**
  * Lightweight markdown renderer for power descriptions.
  * Handles: **bold**, *italic*, - bullet lists, and GFM pipe tables.
@@ -99,5 +101,5 @@ export default function Markdown({ children }) {
   flushList('list-end')
   flushTable('table-end')
 
-  return <>{elements}</>
+  return <div className="markdown">{elements}</div>
 }
