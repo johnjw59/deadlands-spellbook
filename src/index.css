@@ -2,18 +2,18 @@
 
 :root {
   /* Dark western — burnt wood & copper */
-  --c-bg:          #160B05;   /* near-black with red warmth */
-  --c-surface:     #221209;   /* dark mahogany */
-  --c-elevated:    #2E180D;   /* modal / card bg */
-  --c-border:      #5A2C12;   /* rust brown */
-  --c-separator:   #3A1A0A;   /* subtle divider */
-  --c-copper:      #C4581A;   /* burnt copper accent */
-  --c-gold:        #D4A02A;   /* warm gold */
-  --c-gold-mid:    #B8841C;   /* medium gold */
-  --c-gold-dim:    #8A6014;   /* dim gold */
-  --c-text:        #E0DBD5;   /* off-white */
-  --c-text-dim:    #7A6A60;   /* muted warm grey */
-  --c-text-bright: #FFFFFF;   /* pure white */
+  --c-bg: #160B05; /* near-black with red warmth */
+  --c-surface: #221209; /* dark mahogany */
+  --c-elevated: #2E180D; /* modal / card bg */
+  --c-border: #5A2C12; /* rust brown */
+  --c-separator: #3A1A0A; /* subtle divider */
+  --c-copper: #C4581A; /* burnt copper accent */
+  --c-gold: #D4A02A; /* warm gold */
+  --c-gold-mid: #B8841C; /* medium gold */
+  --c-gold-dim: #8A6014; /* dim gold */
+  --c-text: #E0DBD5; /* off-white */
+  --c-text-dim: #7A6A60; /* muted warm grey */
+  --c-text-bright: #FFFFFF; /* pure white */
 
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', system-ui, sans-serif;
   -webkit-tap-highlight-color: transparent;
@@ -49,10 +49,22 @@ body {
   text-transform: uppercase;
   white-space: nowrap;
 }
-.rank-Novice   { background: #0D3020; color: #5DAB75; }
-.rank-Seasoned { background: #3A2800; color: #D4A017; }
-.rank-Veteran  { background: #3A1E00; color: #D46C17; }
-.rank-Heroic   { background: #3A0F0F; color: #D43030; }
+.rank-Novice {
+  background: #0D3020;
+  color: #5DAB75;
+}
+.rank-Seasoned {
+  background: #3A2800;
+  color: #D4A017;
+}
+.rank-Veteran {
+  background: #3A1E00;
+  color: #D46C17;
+}
+.rank-Heroic {
+  background: #3A0F0F;
+  color: #D43030;
+}
 
 /* ── Utilities ───────────────────────────────── */
 /* Lock html, body, and Vite's React root element */
